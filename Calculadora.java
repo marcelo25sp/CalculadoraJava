@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Calculadora {
 
@@ -18,6 +19,7 @@ public class Calculadora {
 				System.out.println("Digite [4] para divisão:");
 				
 				
+				Scanner sc = new Scanner(nome);
 
 			}
 
