@@ -19,7 +19,15 @@ public class Calculadora {
 				System.out.println("Digite [4] para divisão:");
 				
 				
-				Scanner sc = new Scanner(nome);
+				int valor;
+				Scanner teclado = new Scanner(System.in);
+				valor = teclado.nextInt();
+				
+				if (valor == 1) {
+					System.out.println("Digite os valores das somas");
+					
+					
+				}
 
 			}
 
